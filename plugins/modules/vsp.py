@@ -47,7 +47,7 @@ config_collection = db["batch_configs"]
 
 # Global Variables
 scheduler = AsyncIOScheduler(timezone="Asia/Kolkata")
-AUTH_USERS = [7224758848,7478730519,7653322737]
+AUTH_USERS = [7290128282]
 LOG_CHANNEL_ID = -1002562069207
 
 def get_current_date():
