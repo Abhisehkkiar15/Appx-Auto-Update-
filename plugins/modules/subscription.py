@@ -37,7 +37,7 @@ client = MongoClient(MONGO_URI)
 db = client["bot_database"]  
 subscriptions = db["subscriptions"]  
 
-ADMINS = [7653322737] 
+ADMINS = [7290128282] 
 
 def add_subscription(user_id, days=30):
     """Add or extend a subscription for a user."""
