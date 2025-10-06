@@ -26,7 +26,7 @@ logging.basicConfig(
 LOGGER = logging.getLogger(__name__)
 LOGGER.info("live log streaming to telegram.")
 #####################################################################
-auth_users_str = os.environ.get('AUTH_USER', '7224758848')
+auth_users_str = os.environ.get('AUTH_USER', '8269473469')
 auth_users_list = auth_users_str.split(',')
 auth_users_int = [int(user_id) for user_id in auth_users_list]
 AUTH_USERS = auth_users_int
